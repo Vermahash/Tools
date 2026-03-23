@@ -1,0 +1,20 @@
+# PDF Extraction & OCR (extract_books.py)
+pypdf>=4.0.0
+pymupdf>=1.23.0
+pillow>=10.0.0
+pytesseract>=0.3.10
+
+# Text Embeddings & Indexing (text_extractor.py)
+numpy>=1.24.0
+sentence-transformers>=2.2.0
+
+# Optional: faster tokenization for sentence-transformers
+# Uncomment if you want slightly faster embedding computation
+# sentencepiece>=0.1.99
+
+# Note: tkinter is built-in with Python (no pip install needed)
+# Note: Tesseract OCR engine must be installed separately:
+#   Windows: Download from https://github.com/UB-A2ML-Lab/tesseract-windows-build/releases
+#            Or set TESSERACT_CMD env var to the full path of tesseract.exe
+#   Linux: sudo apt-get install tesseract-ocr
+#   macOS: brew install tesseract
